@@ -1,0 +1,280 @@
+.bgimg {
+    background-image: url('images/body.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 620px;
+    opacity: .9;
+}
+
+/* Header section */
+.headeryamla {
+    padding: 205px 1px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}
+
+.headeryamla h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.headeryamla h2 {
+    font-size: 2.5rem;
+}
+
+/* Our services */
+.ourservices {
+    position: relative;
+    z-index: -1;
+    padding: 100px 0px 60px;
+    height: 600px;
+}
+
+.ourservices h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rowsetting {
+    margin: 80px 0px;
+}
+
+.rowsetting h2 {
+    margin-top: 23px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imagesetting {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.fa-shopping-cart {
+    margin-top: 14px;
+    color: white;
+}
+
+.fa-desktop {
+    margin-top: 20px;
+    color: white;
+}
+
+.fa-lock {
+    margin-top: 14px;
+    color: white;
+}
+
+.rowsetting p {
+    color: rgb(75, 73, 73);
+}
+
+/* Portfolio Section */
+.picsetting {
+    width: 348px;
+    height: 217px;
+    border-radius: 10px;
+}
+
+.portfoliosec {
+    position: relative;
+    z-index: -1;
+    height: 1000px;
+    width: 100%;
+    padding: 50px 0px 40px;
+}
+
+.portfoliosec h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/* figure section */
+
+.figure-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* <!-- Our team section --> */
+
+.ourteam {
+    position: relative;
+    z-index: -1;
+    height: 700px;
+    width: 100%;
+    padding: 70px 0px 40px;
+}
+
+.ourteam h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.teamsetting {
+    margin-top: 70px;
+}
+
+/* footer section */
+footer {
+    height: 50px;
+}
+
+footer {
+    line-height: 50px;
+}
+
+/* ///////////////////////// Media Queries //////////////////////////// */
+
+
+
+@media only screen and (min-width:992px) and (max-width:1350px) {
+    .picsetting {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:992px) {
+    .headeryamla h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .headeryamla h2 {
+        font-size: 2rem;
+    }
+
+    .ourservices {
+        height: 690px;
+    }
+    .ourservices h2 {
+        font-size: 1.5rem;
+    }
+
+    .portfoliosec {
+        height: 1000px;
+    }
+
+    .picsetting {
+        width: 100%;
+    }
+
+    .ourteam {
+        height: 700px;
+    }
+
+    .figure-img {
+        width: 210px;
+        height: 210px;
+        border-radius: 130px;
+    }
+}
+
+@media only screen and (min-width:574px) and (max-width:768px) {
+    .headeryamla h1 {
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    .headeryamla h2 {
+        font-size: 1.3rem;
+    }
+
+    .ourservices {
+        height: 750px;
+    }
+    .ourservices h1{
+        font-size: 2.2rem;
+        font-weight: bold;
+
+    }
+    .rowsetting h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .portfoliosec {
+        height: 2340px;
+    }
+    .portfoliosec h1 {
+        font-size: 2.6rem;
+        font-weight: bold;  
+    }
+
+    .picsetting {
+        width: 100%;
+    }
+
+    .ourteam {
+        height: 1300px;
+    }
+}
+
+@media only screen and (min-width:479px) and (max-width:575px) {
+    .headeryamla h1 {
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+
+    .headeryamla h2 {
+        font-size: 1.6rem;
+    }
+
+    .ourservices {
+        height: 1000px;
+    }
+
+    .portfoliosec {
+        height: 2280px;
+    }
+
+    .picsetting {
+        width: 100%;
+    }
+
+    .ourteam {
+        height: 1300px;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:480px) {
+    .headeryamla h1 {
+        font-size: 2.1rem;
+        font-weight: bold;
+
+    }
+
+    .headeryamla h2 {
+        font-size: 1.5rem;
+    }
+
+    .ourservices {
+        height: 1100px;
+    }
+
+    .portfoliosec {
+        height: 2370px;
+    }
+
+    .picsetting {
+        width: 100%;
+    }
+
+    .ourteam {
+        height: 1400px;
+    }
+    .ourteam h1{
+        font-size: 2rem;
+    }
+}
